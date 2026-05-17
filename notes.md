@@ -15,3 +15,27 @@ git cat-file -p <hash> to concatenate files
 Check the status of the files `git status` 
 
 Git stores dir as `tree` and file as `blob`
+
+
+## Config
+```bash
+git config subcommand -flag section.key value
+```
+- subcommand
+    - `set` to add or update key/value
+    - `unset` to remove value
+- flag 
+    - `--global` sets the configuration global, stores in ~/.gitconfig
+    - `--local` stores config with the current dir of the git
+
+# Branching
+Renaming a branc
+```bash
+git branch -m oldername newname
+
+#creating a branch
+git branch new_branch
+
+# creating a switching to the new branch add -c flag
+git switch -c my_new_branch
+```
