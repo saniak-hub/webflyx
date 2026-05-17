@@ -36,6 +36,10 @@ git branch -m oldername newname
 #creating a branch
 git branch new_branch
 
+
 # creating a switching to the new branch add -c flag
 git switch -c my_new_branch
+
+# deleting a branch
+git branch -d branch_name
 ```
